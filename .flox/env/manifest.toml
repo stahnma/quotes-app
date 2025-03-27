@@ -67,7 +67,7 @@ jdk.pkg-path = "jdk"
 [services]
 # myservice.command = "python3 -m http.server"
 
-[build.quotes]
+[build.quotes-app]
 command = """
    # Build a fat jar with gradle using the shadowJar plugin
    gradle shadowJar
