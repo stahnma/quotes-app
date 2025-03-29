@@ -78,6 +78,7 @@ command = """
    echo 'exec java -jar "$JAR_PATH" "$@"' >> $out/bin/quotes
    chmod 755 $out/bin/quotes
 """
+description = "A quotes app written in kotlin because I hate myself"
 
    
 
