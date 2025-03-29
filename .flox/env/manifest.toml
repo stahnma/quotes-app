@@ -78,6 +78,7 @@ command = """
    echo 'exec java -jar "$JAR_PATH" "$@"' >> $out/bin/quotes
    chmod 755 $out/bin/quotes
 """
+
    
 
 ## Other Environment Options -----------------------------------------
